@@ -12,17 +12,19 @@ for (let link of allLinks) {
 
 const allImages = document.getElementsByTagName("img");
 
-const squareImages = document.getElementsByClassName("square");
-
-const allParagraphs = document.querySelectorAll("p");
-
-// for (const image of squareImages) {
-//   image.src =
-//     "https://images.unsplash.com/photo-1563281577-a7be47e20db9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80";
-// }
-
 // for (const image of allImages) {
 //   console.log(image.src);
 //   image.src =
 //     "https://images.unsplash.com/photo-1563281577-a7be47e20db9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80";
 // }
+
+const squareImages = document.getElementsByClassName("square");
+// for (const image of squareImages) {
+//   image.src =
+//     "https://images.unsplash.com/photo-1563281577-a7be47e20db9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80";
+// }
+
+const links = document.querySelectorAll("p a");
+for (const link of links) {
+  console.log(link.href);
+}
