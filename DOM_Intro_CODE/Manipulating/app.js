@@ -11,7 +11,10 @@ for (let link of allLinks) {
 }
 
 const allImages = document.getElementsByTagName("img");
+
 const squareImages = document.getElementsByClassName("square");
+
+const allParagraphs = document.querySelectorAll("p");
 
 // for (const image of squareImages) {
 //   image.src =
