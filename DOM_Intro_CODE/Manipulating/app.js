@@ -25,6 +25,9 @@ const squareImages = document.getElementsByClassName("square");
 // }
 
 const links = document.querySelectorAll("p a");
-for (const link of links) {
-  console.log(link.href);
-}
+
+// for (const link of links) {
+//   console.log(link.href);
+// }
+
+const doneTodos = document.querySelectorAll(".done");
